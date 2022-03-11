@@ -1,5 +1,5 @@
 module.exports = {
-  pingapp: () => {
-    return import('pingapp/config');
+  weather: () => {
+    return import('weather/config');
   },
 };
